@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textSize="20sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:text="Dinesh Adhithya"
+            android:textStyle="bold"
+            android:id="@+id/nameView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textStyle="italic"
+            android:text="Hi ! How are you?"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:id="@+id/messageView"
+            android:layout_below="@+id/nameView"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="55dp"
+            android:background="@drawable/userimmge"
+            android:id="@+id/imageView2"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=""
+            android:textColor="@color/OnlineColor"
+            android:id="@+id/typingView"
+            android:layout_alignBottom="@+id/nameView"
+            android:layout_toEndOf="@+id/nameView" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.dinesh.forcetexter.ChatActivity">
+    <include
+       android:id="@+id/toolbar"
+        layout="@layout/actionbarlayout">
+    </include>
+
+    <ListView
+        android:stackFromBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:id="@+id/chatBox"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true" />
+
+
+    <RelativeLayout
+        android:layout_height="50dp"
+        android:layout_width="300dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/relativeLayout">
+
+        <EditText
+            android:layout_width="290dp"
+            android:layout_height="80dp"
+            android:id="@+id/messsageBox"
+            android:gravity="left"
+            android:background="@drawable/outgoing_message_bg"
+            android:backgroundTint="@color/colorBackWhite"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="6"
+            android:minLines="1"
+            android:scrollHorizontally="false"
+            android:scrollbars="none"
+            android:maxLength="1000"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="45dp"
+        android:elevation="3dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:foregroundGravity="right"
+        android:background="@drawable/rounded_button"
+        android:src="@drawable/sendbutton"
+        android:id="@+id/sendButton"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+

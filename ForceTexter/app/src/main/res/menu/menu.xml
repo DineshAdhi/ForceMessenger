@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/setStatusMenuID"
+        android:name="Set Status"
+        android:title="Set Status"> Set Status </item>
+    <item
+         android:id="@+id/changeProfileMenuID"
+        android:title="Change Profile Info"> Change Profile Info </item>
+    <item
+        android:id="@+id/LogoutMenuID"
+        android:name="Logout"
+        android:title="Logout"> Logout</item>
+</menu>

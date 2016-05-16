@@ -1,0 +1,13 @@
+<android.support.v7.widget.Toolbar
+    android:layout_height="60dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:elevation="10dp"
+    android:id="@+id/userListToolbar">
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    </android.support.v7.widget.Toolbar>

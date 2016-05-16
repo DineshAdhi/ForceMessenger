@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="380dp"
+    android:layout_height="40dp"
+    android:id="@+id/incomingBubbleId"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:backgroundTint="@color/colorPrimary">
+
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/inText"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/outgoing_message_bg"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+</RelativeLayout>
